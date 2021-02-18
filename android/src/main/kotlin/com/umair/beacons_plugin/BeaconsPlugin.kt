@@ -43,8 +43,8 @@ class BeaconsPlugin : FlutterPlugin, ActivityAware, PluginRegistry.RequestPermis
         private var currentActivity: Activity? = null
         private var beaconHelper: BeaconHelper? = null
 
-        private var defaultPermissionDialogTitle = "This app needs background location access"
-        private var defaultPermissionDialogMessage = "Please grant location access so this app can detect beacons in the background."
+        private var defaultPermissionDialogTitle = "Allow Chota to have access to this device's location"
+        private var defaultPermissionDialogMessage = "In order to be able to recommend you to the nearby services that we offer, Please enable 'Allow Always' Location permission"
 
         @JvmStatic
         internal var messenger: BinaryMessenger? = null
